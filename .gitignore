@@ -1,0 +1,14 @@
+# Model checkpoints
+best_model.pt
+best_model_tokenizer/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
