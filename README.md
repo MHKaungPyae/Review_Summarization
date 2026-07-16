@@ -7,7 +7,7 @@ A T5-based text summarization model fine-tuned on customer reviews to generate c
 This model is **not production-ready**. It was built for:
 
 - **Educational purposes** — understanding how T5 fine-tuning works on domain-specific text
-- **App prototyping** — testing how a summarization model would behave inside a [review analysis application](../) we developed
+- **App prototyping** — testing how a summarization model would behave inside a [TripNest Application](https://github.com/linmyatoo/TripNest_admin) we developed
 
 The model has limited training data (156 samples) and produces approximate summaries. Do not rely on it for critical or high-stakes use cases.
 
@@ -54,8 +54,7 @@ ROUGE scores on the validation set:
 Summarization/
 ├── Summarization.ipynb          # Full training + evaluation notebook
 ├── generate_comparison.py       # Script to generate portfolio images
-├── portfolio_comparison_1.png   # Before/after demo (single review)
-├── portfolio_comparison_2.png   # Before/after demo (multiple reviews)
+├── text_comparison.png          # Before/after demo (single review)
 └── README.md
 ```
 
